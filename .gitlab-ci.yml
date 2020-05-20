@@ -12,5 +12,7 @@ unit_test:
     NODE_ENV: test
   script:
     - npm install --save-dev jest
+    - npm install --global web-ext
     - npm test
+    - npm web-ext --config=config.js lint
    
