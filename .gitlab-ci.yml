@@ -12,4 +12,5 @@ unit_test:
     NODE_ENV: test
   script:
     - npm install --save-dev jest
+    - npm test
    
